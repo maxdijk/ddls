@@ -1,0 +1,10 @@
+.vs
+out
+processing/.idea
+instances1
+instances2
+instances3
+instances4
+instances_synthetic
+synthetic
+*.pdf
