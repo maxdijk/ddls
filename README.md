@@ -6,3 +6,9 @@ local_search_final.py handles the Bayesian search. It initializes the diagram, s
 
 The printed results are in the following format:
 solver,filename,metaheuristic,objective_cost,initialization_method,diagram_size,features,classes,samples,train_acc,test_acc,runtime,last_improvement,depth,question_length,avg_frag
+
+## Data Sources
+
+This project uses datasets retrieved from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php).
+
+The datasets are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
