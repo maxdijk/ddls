@@ -190,6 +190,9 @@ int main(int argc, const char* argv[])
                 size++;
             }
         }
+        
+        out.printDiagram();
+        out.outputDiagram();
 
         int depth = result.output.getDepth(result.output.inputBDD.root);
         float question_length = result.output.getQuestionLength();

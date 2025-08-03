@@ -226,7 +226,7 @@ for filename in filenames:
         X_train_full, X_test = X.iloc[train_idx], X.iloc[test_idx]
         y_train_full, y_test = y.iloc[train_idx], y.iloc[test_idx]
 
-        # Further split training set into train and validation (80%-20% split)
+        # Further split training set into train and validation
         X_train, X_val, y_train, y_val = train_test_split(X_train_full, y_train_full,
                                                           test_size=0.25, stratify=y_train_full, random_state=seed)
 
