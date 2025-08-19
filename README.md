@@ -24,8 +24,8 @@ Each script above demonstrates how to run the respective method.
 
 We use **Bayesian Optimization** for hyperparameter tuning.  
 
-- [Local Search with Hyperparameter Tuning](run/local_search_final.py) – Demonstrates DDLS with hyperparameter tuning.  
-- [Decision Tree-limited DDLS](run/local_search_tree.py) – Runs DDLS with hyperparameter tuning while restricting the structure to decision trees instead of diagrams.
+- [Local Search with Hyperparameter Tuning](run/local_search_final.py) – Runs DDLS with hyperparameter tuning on all UCI datasets.  
+- [Decision Tree-limited DDLS](run/local_search_tree.py) – Runs DDLS with hyperparameter tuning on all UCI datasets while restricting the structure to decision trees instead of diagrams.
 
 
 
